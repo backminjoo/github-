@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        div {
+            border: 1px solid black;
+        }
+
+        .container {
+            width: 600px;
+            height: 200px;
+        }
+
+        /* 내 풀이
+        .box
+        {
+            height: 50%;
+        }
+        #box1{
+            width:100%;
+        }
+        #box2{
+            width:50%;
+            float: left;
+
+            
+        }
+        #box3{
+            width: 50%;
+            float: left;
+        } */
+        .row {
+            height: 50%;
+        }
+
+        .col {
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+        </div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"></div>
+        </div>
+    </div>
+
+
+
+
+    <!-- 내 풀이 * float:left가 불필요한 요소한테 줄 필요 없다.
+        <div class="container">
+            <div class="box" id="box1"></div>
+            <div class="box" id="box2"></div>
+            <div class="box" id="box3"></div>
+    </div> 
+    -->
+    
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        span{
+            border:  1px solid black;
+            /* 넓이 높이를 지정할 수 없음 */
+            width: 500px;
+            height: 200px;
+        }
+        div{
+            border : 1px solid black;
+            /* 넓이 높이를 지정할 수 있음 */
+            width: 500px;
+            height: 200px;
+        }
+        p{
+            border: 1px solid black;
+            /* 넓이 높이를 지정할 수 있음 */            
+            width: 500px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- 
+    html layout의 역사
+    1. 테이블 태그로 구성
+    2. positioning
+    3. div + float (main) / span + inline block
+    4. flex 
+    // 3,4번 레이아웃 점유율이 높다
+    5. grid
+
+
+    display 속성? 
+        <span> : 기본값 display:inline 속성
+        <div>, <p> : 기본값 display:block 속성
+        
+        inline 속성
+            태그가 가지고 있는 내용만큼의 넓이 높이만을 가진다.
+            넓이와 높이 값이 인위적으로 조정될 수 없다. 
+        
+        block 속성
+            태그의 내용과 상관없이 태그 하나가 한 라인을 독점하는 특징을 가진다.
+            넓이와 높이의 조정은 가능하나 라인 독점의 특징이 사라지진 않는다. 
+        
+        
+    -->
+
+
+
+
+    <span>span1</span><span>span2</span>
+
+    <hr>
+
+    <div>div1</div>
+    <div>div2</div>
+
+    <p>p</p>
+    <p>p</p>
+
+</body>
+</html>
